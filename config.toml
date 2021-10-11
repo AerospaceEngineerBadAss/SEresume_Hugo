@@ -1,0 +1,364 @@
+# Page settings
+
+baseURL = ""
+languageCode = "en"
+title = "Alexey Mendieta Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Alexey Mendieta"
+    description = "Systems Engineering - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Alexey Mendieta"
+        tagline = "Systems Engineering Manager"
+        avatar = "AlexeyHead.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Orlando"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "440-253-9393"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "alexey.mendieta@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.AlexeyMendieta.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "HTML/CSS/JavaScript"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Git/GitHub"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes"
+        [[params.skills.list.items]]
+        details = "MS Office"
+        [[params.skills.list.items]]
+        details = "AWS/Azure"
+        [[params.skills.list.items]]
+        details = "Google Adwords /Facebook Ads"
+        [[params.skills.list.items]]
+        details = "JIRA/Confluence/CROWD/Fisheye/Bitbucket"
+        [[params.skills.list.items]]
+        details = "DOORS 9.x/DOORS NextGen"
+        [[params.skills.list.items]]
+        details = "SharePoint"
+        [[params.skills.list.items]]
+        details = "QuickTest Professional/ Selenium"
+        [[params.skills.list.items]]
+        details = "Linux (Redhat, Ubuntu, Centos, Kali)"
+        [[params.skills.list.items]]
+        details = "VMware (ESXI, vsphere, VMs, Workstation)"
+        [[params.skills.list.items]]
+        details = "MBSE/CAMEO/SysML"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "AGILE Methodology"
+        [[params.skills.list.items]]
+        details = "Risk management"
+        [[params.skills.list.items]]
+        details = "Lean Engineering"
+        [[params.skills.list.items]]
+        details = "Mentoring and Coaching"
+        [[params.skills.list.items]]
+        details = "Stakeholder Management"
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Masters in Aerospace Engineering"
+        university = "Embry-Riddle Aeronautical University"
+        dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "Masters in Engineering"
+        university = "EPF"
+        dates = "2007 - 2010"
+        [[params.education.list]]
+        degree = "BS in Aerospace Engineering"
+        university = "Embry-Riddle Aeronautical University"
+        dates = "2001 - 2005"
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "French"
+        level = "Proffesional"
+        [[params.languages.list]]
+        name = "Russian"
+        level = "Intermediate"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Rugby"
+        [[params.interests.list]]
+        name = "Triathlons"
+        [[params.interests.list]]
+        name = "Family"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Extensive experience partnering with customers around the world to ensure product and solution development and deployment. Hands on leadership that actively seeks diversity of thought and takes active interest in the growth of each member of his team. Alexey excels in the design and implementation of mission critical systems. Managed complex projects in Aircraft Logistics maintenance systems, Flight Training managements systems, Level D Simulator testing and qualification."
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Systems Engineering Manager/ SEIT Lead"
+        dates = "Mar 2020 - Present"
+        company = "Northrop Grumman - Defense Systems"
+        details = "Responsible for daily operations of a team in a Matrix organization (direct supervision of the staff, assignment of work, schedules, day to day workflow, and operating costs). Manager responsibilities include: cost, schedule, and technical performance of a specific unit and/or work package on a large system development-type contract and broad responsibility for all aspects of program performance. Programs worked on: WTCS, NMON, DMON"
+        #[[params.experience.list.items]]
+        #details = "Lorem ipsum dolor sit amet, consectetuer."
+        #[[params.experience.list.items]]
+        #details = "Aenean commodo ligula eget dolor."
+        #[[params.experience.list.items]]
+        #details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Integration/Test & Systems Engineer Senior"
+        dates = "Feb 2016 - Mar 2020"
+        company = "Lockheed Martin - RMS"
+        details = "Responsible for the solution and technical Road Map for the Technical upgrade and virtualization of 2 PC-21 Operational flight simulators for the Republic of Singapore. Lead all aspects of the Test/Quality engineering including verification of 7 Level D simulators and all associated Learning Environment products/devices for the Air 5428 project. Manage, Plan, oversee and technically involved in 4 IRADs worth $1Milllion (AL, TMS, PTE, Modeling and Simulation)"
+        [[params.experience.list.items]]
+        details = "**Program:** BWC Tech Refresh **Customer:** Royal Singaporean Air Force"
+        [[params.experience.list.items]]
+        details = "**Program:** Air5428 **Customer:** Royal Australian Air Force"
+
+        [[params.experience.list]]
+        title = "Test Lead/Director"
+        dates = "Jan 2015 - Feb 2016"
+        company = "SIM-Industries BV"
+        details = "Lead all aspects of the Test/Quality engineering organizations, including product development and engineering, process engineering, production test, development and quality control, as well as collaborating with supply chain and warehouse to drive profitability and on time delivery of the simulators"
+
+        [[params.experience.list]]
+        title = "Systems Engineer/Test Lead"
+        dates = "April 2013 - Dec 2014"
+        company = "Lockheed Martin - MST"
+        details = "Responsible in leading and performing proactive Systems/Software engineering practices across the department. This included the creation of product roadmaps, Support and identification of new business opportunities, responsible for technical integrity of all products (TIMS, LMIS, Logbook and other Turnkey training solutions software)"
+
+        [[params.experience.list]]
+        title = "Work Package Manager"
+        dates = "Nov 2011 - March 2013"
+        company = "AIRBUS Helicopters"
+        details = "Responsible for the Integration Validation Verification (IVV) and Systems engineering teams for the EC175 Full Flight Simulator (level D)"
+
+        [[params.experience.list]]
+        title = "Systems Engineer"
+        dates = "Feb 2009 - Sept 2011"
+        company = "Lockheed Martin - MST"
+        details = ""
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+# Putting ** before and after words make them appear bold
+
+
+    [params.certifications]
+        enable = true
+
+        [[params.certifications.list]]
+        title = "Systems Engineering Certifications"
+        [[params.certifications.list.items]]
+        details = "CalTech|CTME **DevOps** · Sept 2021"
+        [[params.certifications.list.items]]
+        details = "CalTech|CTME **Model Based System Engineering** · Dec 2020"
+        [[params.certifications.list.items]]
+        details = "SimpliLearn  **Agile Scrum Foundation** · Jan 2021"
+        [[params.certifications.list.items]]
+        details = "SimpliLearn  **Linux Training** · Jan 2021"
+        [[params.certifications.list.items]]
+        details = "SimpliLearn  **Programming Fundamental** · Jan 2021"
+        [[params.certifications.list.items]]
+        details = "INCOSE  **Certified Systems Engineering Professional (CSEP** · Sept 2019"
+        [[params.certifications.list.items]]
+        details = "AWS  **Certified Cloud Practitioner** · Feb 2019"
+
+        [[params.certifications.list]]
+        title = "Programming Certifications"
+        [[params.certifications.list.items]]
+        details = "FreeCodeCamp  **Front End Development Certification** · May 2018"
+        [[params.certifications.list.items]]
+        details = "FreeCodeCamp  **JavaScript Algorithms and Data Structures** · June 2018"
+        [[params.certifications.list.items]]
+        details = "FreeCodeCamp  **Responsive Web Design** · Sept 2018"
+        [[params.certifications.list.items]]
+        details = "FreeCodeCamp  **Data Visualiztion** · July 2020"
+        [[params.certifications.list.items]]
+        details = "AWS  **Certified Cloud Practitioner** · Feb 2019"
+        
+        [[params.certifications.list]]
+        title = "Leadership Programs and Training"
+        [[params.certifications.list.items]]
+        details = "Lockheed Martin  **Advanced Technical Leadership Development Program (ATLP)** · 2014 - 2017"
+        [[params.certifications.list.items]]
+        details = "EADS/AIRBUS  **PROGRESS Graduate Program** · 2011 - 2013"
+        [[params.certifications.list.items]]
+        details = "EADS/AIRBUS  **Personal & Interpersonal Effectiveness workshop** · Feb 2012"
+        [[params.certifications.list.items]]
+        details = "EADS/AIRBUS  **Project Management: Into Practice/ People Make the difference workshop** · July 2012"
+        [[params.certifications.list.items]]
+        details = "EADS/AIRBUS  **PM Team Leader** · May 2012"
+        
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/AerospaceEngineerBadAss"
+        #title = "Alexey M"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/alexey-mendieta-a318858/"
+        #title = "Alexey Mendieta"
+        [[params.social.list]]
+        icon = "fab fa-free-code-camp"
+        url = "https://www.freecodecamp.org/aerospaceengineerbadass"
+        #title = "Alexey Mendieta"
+
+
+
+
+
